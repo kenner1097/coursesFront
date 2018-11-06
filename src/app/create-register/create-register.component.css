@@ -1,0 +1,15 @@
+.clear{
+    margin: 15px
+}
+.required{
+    color: crimson;
+    font-weight: bolder;
+}
+.main-form{
+    border: 75%;
+}
+.btn-save{
+    cursor: pointer; 
+    font-weight: bolder; 
+    
+}

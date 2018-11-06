@@ -1,0 +1,22 @@
+<h1>Usuarios Registrados</h1>
+<div class="clear"></div>
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>nombre</th>
+      <th>apellidos</th>
+      <th>email</th>
+      <th>role_user</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of register">
+      <td>_</td>
+      <td>{{item.nombre}}</td>
+      <td>{{item.apellidos}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.role_user}}</td>
+    </tr>
+  </tbody>
+</table>
